@@ -219,11 +219,11 @@ Use it like the following:
 ```
 # Android armv7
 
-./build-openssl.py --prefix /tmp/build_dir/android --compile-threads 32 --openssl-tar deps/openssl-1.1.1q.tar.gz android --ndk-dir /home/...path to.../android-ndk-r25b --arch armv7a
+./build-openssl.py --prefix /tmp/build_dir/android --compile-threads 32 --openssl-tar deps/openssl-1.1.1q.tar.gz android --ndk-dir /home/...path to.../android-ndk-r28b --arch armv7a
 
 # Android aarch64
 
-./build-openssl.py --prefix /tmp/build_dir/android --compile-threads 32 --openssl-tar deps/openssl-1.1.1q.tar.gz android --ndk-dir /home/...path to.../android-ndk-r25b --arch aarch64
+./build-openssl.py --prefix /tmp/build_dir/android --compile-threads 32 --openssl-tar deps/openssl-1.1.1q.tar.gz android --ndk-dir /home/...path to.../android-ndk-r28b --arch aarch64
 
 # Linux
 

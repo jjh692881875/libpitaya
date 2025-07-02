@@ -12,7 +12,7 @@
 #include "pr_pkg.h"
 
 #define pc__pkg_type(head) (head[0] & 0xff)
-#define MIN(a, b) ( (a) > (b) ? (b) : (a))
+// #define MIN(a, b) ( (a) > (b) ? (b) : (a))
 
 #define PC_HANDSHAKE_OK 200
 
